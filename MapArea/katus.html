@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Map Area kasutamine</title>
+    <link rel="stylesheet" href="mapstyle.css">
+</head>
+<body>
+<h1>Map Area kasutamine</h1>
+<h3>Kliki maja peale</h3>
+<img src="maja.png" alt="majake" usemap="#majake">
+<map name="majake">
+    <!--circle coords = x,y,R-->
+    <area shape="circle" coords="154, 126, 28" href="aken.html" alt="aken">
+    <!--rect coords = x,y,x1,y1-->
+    <area shape="rect" coords="80, 148, 219, 242" href="sein.html" alt="sein">
+    <!-- poly coords = x,y,x1,y1,x2,y2-->
+    <area shape="poly" coords="80, 144, 149, 85, 219, 145" href="katus.html" alt="katus">
+</map>
+<div>Katus on plekkist ja ei ole korstnat</div>
+
+</body>
+</html>
