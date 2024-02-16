@@ -1,0 +1,56 @@
+/* style.css*/
+header{
+	color: grey; /*teksti värv*/
+	background-color: purple; /*tausta värv*/
+	font-family: "Bauhaus 93", Arial, Georgia;
+	letter-spacing: 0.3cm;
+	text-align: center;
+	
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	background-color: grey;
+	width: 100%;
+	text-align: center;
+	
+}
+main section{
+	border-left: 6pt solid purple; /*dotted dashed */
+	border-right: 6pt solid purple;
+	border-radius: 60px;
+	padding: 2%;
+	width: 30%;
+}
+/*h2 mis on section sees*/
+main section h2{
+	color: grey; /*teksti värv*/
+	background-color: purple; /*tausta värv*/
+	font-family: "Bauhaus 93", Arial, Georgia;
+	letter-spacing: 0.3cm;
+	text-align: center;
+}
+/*navigeerimismenüü w3shools lehelt*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
